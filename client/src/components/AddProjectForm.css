@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+  }
+  
+  .btn-add {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer;
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3; 
+  }
+  

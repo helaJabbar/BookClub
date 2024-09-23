@@ -1,0 +1,68 @@
+.project-manager {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .column {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .column h2 {
+    height: 30px;
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 1.5em; 
+  }
+  
+ 
+  #h2-backlog{
+   
+    background-color:#06fcfc ;
+  }
+  #h2-inProgress {
+    
+    background-color: #fbcd02; 
+  }
+  
+  #h2-completed {
+   
+    background-color: #18fc08; 
+  }
+ 
+  button{
+    height: 40px;
+    width:200px;
+    color: #fff;
+    border: none; 
+    border-radius: 10px;
+  }
+  .column.backlog .project-card button {
+    background-color: #fbcd02;   
+  }
+  
+  .column.backlog .project-card button:hover {
+    background-color: #e0a800;
+  }
+
+  .column.in-progress .project-card button {
+    background-color: #18fc08;   
+  }
+  
+  .column.in-progress .project-card button:hover {
+    background-color: #18fc08;
+  }
+  .column.completed .project-card button {
+    background-color: #fc2008;   
+  }
+  
+  .column.completed .project-card button:hover {
+    background-color: #fc2008;
+  }

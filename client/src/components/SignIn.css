@@ -1,0 +1,72 @@
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.form-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.register {
+  border-right: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+}

@@ -1,0 +1,69 @@
+.new-project {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-back {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 1em;
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+  margin-bottom: 20px; 
+}
+
+.btn-back:hover {
+  background-color: #0056b3;
+}
+
+.project-form {
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9; 
+}
+
+.project-form legend {
+  font-size: 1.5em;
+  margin-bottom: 15px; 
+}
+
+.project-form label {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.project-form input[type="text"],
+.project-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+}
+
+.btn-plan {
+  background-color: #28a745; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 1em; 
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+}
+
+.btn-plan:hover {
+  background-color: #218838; 
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em; 
+  margin-top: 0.5em; 
+}
